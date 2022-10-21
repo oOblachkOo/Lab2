@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.pretitle {
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+.text {
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.text_grey {
+  color: #373A3C;
+}
+.title {
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFF;
+}
+.link {
+  font-size: 16px;
+  line-height: 16px;
+}
+.link_game {
+  color: #FFF;
+}
+.link_help {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn {
+  border-radius: 4px;
+}
+.btn_green {
+  background: #8DD83D;
+}
+.btn_grey {
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+
+/* header */
+
+.header {
+  padding: 0px 165px;
+  height: 60px;
+  background: #373A3C;
+  border-radius: 4px;
+}
+.header__menu {
+  display: flex;
+}
+.header__wrap {
+  padding: 11px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  height: 29px;
+}
+.header__logo img {
+  width: 100%;
+  height: 100%;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+}
+.header__item:not(:last-of-type) {
+  margin-right: 25px;
+}
+.header__input {
+  padding: 9px 0px 8px 16px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+.header__link {
+  display: flex;
+  align-items: center;
+}
+.header__link_shape::before {
+  content: "";
+  background: url("../img/Shape.svg") no-repeat center center/cover;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+}
+.header__link_arrow::after {
+  content: "";
+  background: url("../img/down-arrow.svg") no-repeat center center/cover;
+  display: block;
+  height: 7px;
+  width: 12px;
+  margin-left: 7px;
+}
+
+/* first section */
+
+.first {
+  background: url("../img/Star-Wars-Battlefront-II-combat.png") no-repeat center center/cover;
+}
+.first__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first__arrow {
+  width: 135px;
+  height: 644px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first__block {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  justify-content: flex-end;
+}
+.first__block::after {
+  background: url(../img/icon-next.svg) no-repeat center center/cover;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+.first__ghost {
+  height: 95px;
+}
+.first__btn {
+  padding: 8px 24px 9px 19px;
+  color: #FFFFFF;
+}
+.first__btn:not(:last-of-type) {
+  margin-right: 13px;
+}
+
+/* second section */
+
+.second {
+  background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+.second__wrap {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 162px;
+}
+.second__logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+.second__texts {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.second__title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  line-height: 56px;
+}
+.second__text_center {
+  display: flex;
+  justify-content: center;
+}
+.second__carts {
+  margin-top: 43px;
+  display: flex;
+  justify-content: space-around;
+}
+.second__cart {
+  background-color: #FFF;
+  width: 318px;
+  height: 418px;
+  border: 1px solid #8DD83D;
+  border-radius: 4px;
+}
+.second__img {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second__img img {
+  border-radius: 4px;
+}
+.second__preblock {
+  margin-left: 22px;
+}
+.second__pretitle {
+  margin-top: 22px;
+  font-size: 18px;
+  line-height: 21px;
+}
+.second__text {
+  margin-top: 13px;
+  margin-bottom: 57px;
+  min-height: 73px;
+}
+.second__btn {
+  color: #FFF;
+}
+.second__btn_one {
+  padding: 19px 23px 20px 23px;
+}
+.second__btn_two {
+  padding: 19px 64px 20px 64px;
+}
+.second__btn_three {
+  padding: 19px 80px 20px 80px;
+}
+
+/* form registration */
+
+.registration {
+  font-family: "Roboto";
+  width: 300px;
+  height: 433px;
+  border-radius: 8px;
+  border: 2px solid white;
+  box-shadow: 0px 0px 30px rgba(0, 29, 108, 0.1);
+  margin: 0 auto;
+}
+.registration__header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #979797;
+  display: flex;
+  justify-content: center;
+}
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 55px 40px;
+}
+.registration__title {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+.registration__input {
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+  width: 204px;
+  height: 40px;
+  padding-left: 16px;
+}
+.registration__btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #8DD83D;
+  margin-bottom: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  height: 50px;
+  justify-content: center;
+}
+.registration__enter {
+  width: 36px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+/* third section */
+
+.lab {
+  background: url("../img/Rectangle.png") no-repeat center center/cover;
+}
+.lab__block {
+  max-width: 533px;
+  margin-left: 100px;
+}
+.lab__title {
+  padding: 114px 0px 9px 0px;
+  justify-content: flex-start;
+}
+.lab__text {
+  margin-bottom: 37px;
+}
+.lab__btns {
+  padding-bottom: 150px;
+}
+.lab__btn_one {
+  padding: 20px 31px 19px 52px;
+  margin-right: 15px;
+  color: hsl(0, 0%, 94%);
+}
+.lab__btn_two {
+  padding: 20px 23px;
+  color: hsl(0, 0%, 94%);
+}
